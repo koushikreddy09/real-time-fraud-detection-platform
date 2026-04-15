@@ -1,0 +1,6 @@
+com/fraud/ingestion/TransactionIngestionServiceApplication.class
+com/fraud/ingestion/service/TransactionService.class
+com/fraud/ingestion/repository/TransactionRepository.class
+com/fraud/ingestion/controller/TransactionController.class
+com/fraud/ingestion/entity/TransactionEntity.class
+com/fraud/ingestion/model/TransactionRequest.class

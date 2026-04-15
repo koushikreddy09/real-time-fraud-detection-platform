@@ -1,0 +1,6 @@
+/home/frauduser/real-time-fraud-detection-platform/transaction-ingestion-service/src/main/java/com/fraud/ingestion/TransactionIngestionServiceApplication.java
+/home/frauduser/real-time-fraud-detection-platform/transaction-ingestion-service/src/main/java/com/fraud/ingestion/controller/TransactionController.java
+/home/frauduser/real-time-fraud-detection-platform/transaction-ingestion-service/src/main/java/com/fraud/ingestion/entity/TransactionEntity.java
+/home/frauduser/real-time-fraud-detection-platform/transaction-ingestion-service/src/main/java/com/fraud/ingestion/model/TransactionRequest.java
+/home/frauduser/real-time-fraud-detection-platform/transaction-ingestion-service/src/main/java/com/fraud/ingestion/repository/TransactionRepository.java
+/home/frauduser/real-time-fraud-detection-platform/transaction-ingestion-service/src/main/java/com/fraud/ingestion/service/TransactionService.java

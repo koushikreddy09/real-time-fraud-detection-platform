@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: transaction-ingestion-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/frauddb
+    username: fraud_user
+    password: fraud_pass
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+logging:
+  level:
+    org.springframework.kafka: INFO
+    org.hibernate.SQL: INFO
